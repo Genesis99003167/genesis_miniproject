@@ -1,1 +1,1 @@
-# genesis2020_miniproject
+# genesis_miniproject
