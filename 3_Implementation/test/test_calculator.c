@@ -9,14 +9,9 @@
 
 //void test_login(void);
 void test_addition(void);
-<<<<<<< HEAD
-/* void test_temperature(void);
-void test_sanitize_check(void); */
-=======
 void test_subtraction(void);
-void test_multilication(void);
->>>>>>> 732f2b7586668546ef65440b140fbcb6b30b77a8
-
+void test_multiplication(void);
+void test_division(void);
 /* Start of the application test */
 int main() {
   
@@ -30,10 +25,10 @@ int main() {
 
   /* Add your test functions in this format for testing*/
   //CU_add_test(suite, "login", test_login);
-  CU_add_test(suite, "phone", test_phone);
-  CU_add_test(suite, "temperature", test_temperature);
-  CU_add_test(suite, "sanitize", test_sanitize_check);
-
+  CU_add_test(suite, "addition", test_addition);
+  CU_add_test(suite, "subtraction", test_subtraction;
+  CU_add_test(suite, "multiplication", test_multiplication);
+  CU_add_test(suite, "division", test_division);
 
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
@@ -52,22 +47,8 @@ int main() {
 /* Write all the test functions */
 
 
-<<<<<<< HEAD
 void test_addition(void) {
   CU_ASSERT(9 == addition(5,4));
-=======
->>>>>>> 732f2b7586668546ef65440b140fbcb6b30b77a8
+  CU_ASSERT(-2 == addition(5,-7));
 
 }
-/*
-
-void test_temperature(void) {
-  CU_ASSERT(1 == temp_check());
-  CU_ASSERT(1 == temp_check());
-}
-
-void test_sanitize_check(void) {
-  CU_ASSERT(1 == sanitize());
-  CU_ASSERT(1 == sanitize());
-}
-*/
