@@ -129,6 +129,7 @@ int square(float operand1)
     return operand1*operand1;
 }
 
+int 
 /* trigonometric functions*/
 float sine(float value)
 {
