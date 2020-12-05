@@ -157,7 +157,7 @@ int Expo(int operand1)
     if(operand1==0)
         return 1;
     else 
-        return expo(operand1);
+        return exp(operand1);
 } 
 
 
