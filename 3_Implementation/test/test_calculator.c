@@ -9,8 +9,13 @@
 
 //void test_login(void);
 void test_addition(void);
+<<<<<<< HEAD
 /* void test_temperature(void);
 void test_sanitize_check(void); */
+=======
+void test_subtraction(void);
+void test_multilication(void);
+>>>>>>> 732f2b7586668546ef65440b140fbcb6b30b77a8
 
 /* Start of the application test */
 int main() {
@@ -47,8 +52,11 @@ int main() {
 /* Write all the test functions */
 
 
+<<<<<<< HEAD
 void test_addition(void) {
   CU_ASSERT(9 == addition(5,4));
+=======
+>>>>>>> 732f2b7586668546ef65440b140fbcb6b30b77a8
 
 }
 /*
