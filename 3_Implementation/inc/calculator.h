@@ -5,12 +5,6 @@
 #include <math.h>  
 #include <stdlib.h> 
 
-
-int addition(int a, float b);
-int subtraction(int a, int b);
-int multiplication(int a, int b);
-int division(int a, int b);
-
 int modulorem(int operand1, int operand2)
 int power( int base, int exponent)
 int evenodd(int operand1)
@@ -31,16 +25,6 @@ int addition(int , int );
 int subtraction(int , int );
 int multiplication(int , int );
 int division(int , int );
-
-
-int ANDoperator(int, int  );
-int ORoperator(int , int );
-int NOToperator(int );
-int NANDoperator(int , int );
-int NORoperator(int , int );
-int XORoperator(int , int );
-int XNORoperator(int , int );
-int square(float );
 
 
 float sine(float);
