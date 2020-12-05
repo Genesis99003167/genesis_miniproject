@@ -4,23 +4,21 @@
 
 int addition(int operand1, int operand2)
 {
-    return a+b;
+    return operand1+operand2;
 
 }
 int subtraction(int operand1, int operand2)
 {
-    return a-b;
+    return operand1-operand2;
 }
 int multiplication(int operand1, int operand2)
 {
-    return a*b;
+    return operand1*operand2;
 }
-int division(int a, int b)
+int division(int operand1, int operand2)
 {
-    return a/b;
+    return operand1/operand2;
 }
-<<<<<<< HEAD
-=======
 int modulorem(int operand1, int operand2)
 {
     if (0== operand2)
@@ -65,7 +63,6 @@ int factorial(int operand1)
 }
 
 
->>>>>>> 12768423eb3abbe776c4c4a04293c32ec659bdcc
 
 int andoperator(int operand1, int operand2 )
 {  
@@ -103,31 +100,31 @@ int xnoroperator(int operand1, int operand2)
 
 
 /* trigonometric functions*/
-float sine(float x)
+float sine(float value)
 {
-    return (sin (x*PI/180));
+    return (sin (value*PI/180));
 }
-float cosine(float x)
+float cosine(float value)
 {
     return (cos (x*PI/180));
 }
-float tangent(float x)
+float tangent(float value)
 {
-    return (tan(x*PI/180));
+    return (tan(value*PI/180));
 }
-float sineh(float x)
+float sineh(float value)
 {
-    return (sinh(x));
+    return (sinh(value));
 }
-float cosineh(float x)
+float cosineh(float value)
 {
-    return (sinh(x));
+    return (sinh(value));
 }
-float tangenth(float x)
+float tangenth(float value)
 {
-    return (sinh(x));
+    return (sinh(value));
 }
-float logten(float x)
+float logten(float value)
 {
-    return (log10(x));
+    return (log10(value));
 }
