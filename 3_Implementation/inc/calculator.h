@@ -14,6 +14,16 @@ int division(int a, int b);
 int modulorem(int operand1, int operand2)
 int power( int base, int exponent)
 
+int ANDoperator(int operand1, int operand2 )
+int ORoperator(int operand1, int operand2)
+int NOToperator(int operand1)
+int NANDoperator(int operand1, int operand2)
+int NORoperator(int operand1, int operand2)
+int XORoperator(int operand1, int operand2)
+int XNORoperator(int operand1, int operand2)
+int square(float operand1)
+
+
 float sine(float);
 float cosine(float);
 float tangent(float);

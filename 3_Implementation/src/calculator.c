@@ -63,41 +63,45 @@ int factorial(int operand1)
 
 
 
-int andoperator(int operand1, int operand2 )
+int ANDoperator(int operand1, int operand2 )
 {  
     return operand1&operand2;
 }
 
-int oroperator(int operand1, int operand2)
+int ORoperator(int operand1, int operand2)
 {
     return operand1|operand2;
 }
 
-int notoperator(int operand1)
+int NOToperator(int operand1)
 {
     return ~operand1;
 }
 
-int nandoperator(int operand1, int operand2)
+int NANDoperator(int operand1, int operand2)
 {
      return ~(operand1&operand2);
 }
 
-int noroperator(int operand1, int operand2)
+int NORoperator(int operand1, int operand2)
 {
     return ~(operand1|operand2);
 }
 
-int xoroperator(int operand1, int operand2)
+int XORoperator(int operand1, int operand2)
 {
     return operand1^operand2;
 }
 
-int xnoroperator(int operand1, int operand2)
+int XNORoperator(int operand1, int operand2)
 {
     return ~(operand1^operand2);
 }
 
+int square(float operand1)
+{
+    return operand1*operand1;
+}
 
 /* trigonometric functions*/
 float sine(float value)
