@@ -35,7 +35,7 @@ int main() {
   CU_add_test(suite, "division", test_division);
   CU_add_test(suite, "ANDoperator", test_ANDoperator);
 
-  
+
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
   CU_basic_set_mode(CU_BRM_VERBOSE);
@@ -66,10 +66,12 @@ void test_subtraction(void) {
 
 void test_multiplication(void) {
   CU_ASSERT(20 == multiplication(5,4));
+  CU_ASSERT_EQUAL(5000, multiplication(500,10))
 }
 
 void test_division(void) {
   CU_ASSERT(1 == division(5,4));
+  CU_ASSERT_EQUAL(3, division(1500,500));
 }
 
 void test_ANDoperator(void) {
