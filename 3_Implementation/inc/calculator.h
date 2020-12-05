@@ -2,9 +2,9 @@
 #define __CALCULATOR_H__
 
 #include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-#include <string.h>
+#include <math.h>  
+#include <stdlib.h> 
+
 
 int addition(int a, float b);
 int subtraction(int a, int b);
