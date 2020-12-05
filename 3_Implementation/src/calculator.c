@@ -144,7 +144,7 @@ int cube(int operand1)
     return operand1*operand1*operand1;
 }
 
-int LOGfunction(float operand1)
+int LOGfunction(int operand1)
 {
     if(operand1<=0)
         return operand1;
