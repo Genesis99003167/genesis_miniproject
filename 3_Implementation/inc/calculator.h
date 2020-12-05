@@ -5,11 +5,11 @@
 #include <math.h>  
 #include <stdlib.h> 
 
-int modulorem(int operand1, int operand2)
-int power( int base, int exponent)
-int evenodd(int operand1)
-int prime(int operand1)
-int factorial(int operand1)
+int modulorem(int, int);
+int power( int, int);
+int evenodd(int);
+int prime(int);
+int factorial(int);
 
 int ANDoperator(int,int);
 int ORoperator(int,int);

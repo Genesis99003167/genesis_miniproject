@@ -129,7 +129,7 @@ int square(float operand1)
     return operand1*operand1;
 }
 
-int squareroot(float operand1)
+float squareroot(float operand1)
 {
     if(operand1<0)
         return 0;
