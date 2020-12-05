@@ -1,4 +1,4 @@
-#include "arithmetic.h"
+#include "calculator.h"
 
 
 void main()
