@@ -6,13 +6,13 @@
 #include <stdlib.h> 
 
 
-int addition(int a, float b);
-int subtraction(int a, int b);
-int multiplication(int a, int b);
-int division(int a, int b);
+int addition(int , int );
+int subtraction(int , int );
+int multiplication(int , int );
+int division(int , int );
 
-int modulorem(int operand1, int operand2)
-int power( int base, int exponent)
+int modulorem(int , int );
+int power( int , int );
 
 float sine(float);
 float cosine(float);
