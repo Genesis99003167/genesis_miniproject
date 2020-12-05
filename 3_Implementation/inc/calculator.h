@@ -6,7 +6,6 @@
 #include <stdlib.h> 
 
 
-<<<<<<< HEAD
 int addition(int a, float b);
 int subtraction(int a, int b);
 int multiplication(int a, int b);
@@ -28,16 +27,12 @@ int XNORoperator(int,int);
 int square(float);
 int squareroot(float);
 
-=======
 int addition(int , int );
 int subtraction(int , int );
 int multiplication(int , int );
 int division(int , int );
->>>>>>> e02c5abe27b239e1024524b220e2d04be8553b61
 
 
-<<<<<<< HEAD
-=======
 int ANDoperator(int, int  );
 int ORoperator(int , int );
 int NOToperator(int );
@@ -46,7 +41,6 @@ int NORoperator(int , int );
 int XORoperator(int , int );
 int XNORoperator(int , int );
 int square(float );
->>>>>>> e02c5abe27b239e1024524b220e2d04be8553b61
 
 
 float sine(float);
