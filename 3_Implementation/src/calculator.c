@@ -126,12 +126,12 @@ int XNORoperator(int operand1, int operand2)
     return ~(operand1^operand2);
 }
 
-int square(float operand1)
+int square(int operand1)
 {
     return operand1*operand1;
 }
 
-float squareroot(float operand1)
+float square_root(float operand1)
 {
     if(operand1<=0)
         return 0;
@@ -139,7 +139,7 @@ float squareroot(float operand1)
         return sqrt(operand1);
 } 
 
-int cube(float operand1)
+int cube(int operand1)
 {
     return operand1*operand1*operand1;
 }
@@ -152,7 +152,7 @@ int LOGfunction(float operand1)
         return log(operand1);
 }
 
-int Expo(float operand1)
+int Expo(int operand1)
 {
     if(operand1==0)
         return 1;
