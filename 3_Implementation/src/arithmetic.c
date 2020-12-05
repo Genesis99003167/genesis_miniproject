@@ -19,12 +19,3 @@ int division(int a, int b)
 {
     return a/b;
 }
-void main()
-{
-    int a;
-    float b;
-    scanf("%d%d", &a, &b);
-    int x= addition(a,b);
-    printf("Sum:%d",x);
-
-}
