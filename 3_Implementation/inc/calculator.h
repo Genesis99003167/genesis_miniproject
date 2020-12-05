@@ -19,14 +19,14 @@ int evenodd(int );
 int prime(int );
 int factorial(int );
 
-int ANDoperator(int operand1, int operand2 );
-int ORoperator(int operand1, int operand2);
-int NOToperator(int operand1);
-int NANDoperator(int operand1, int operand2);l
-int NORoperator(int operand1, int operand2);
-int XORoperator(int operand1, int operand2);
-int XNORoperator(int operand1, int operand2)
-int square(float operand1);
+int ANDoperator(int, int  );
+int ORoperator(int , int );
+int NOToperator(int );
+int NANDoperator(int , int );
+int NORoperator(int , int );
+int XORoperator(int , int );
+int XNORoperator(int , int );
+int square(float );
 
 
 float sine(float);
