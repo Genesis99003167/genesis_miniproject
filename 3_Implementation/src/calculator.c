@@ -18,6 +18,7 @@ int division(int operand1, int operand2)
 {
     return operand1/operand2;
 }
+
 int modulorem(int operand1, int operand2)
 {
     if (0== operand2)
@@ -28,6 +29,7 @@ int modulorem(int operand1, int operand2)
     }
     
 }
+
 int power( int base, int exponent)
 {
     int result=1;
@@ -48,6 +50,30 @@ int evenodd(int operand1)
     }
     
 }
+
+int prime(int operand1)
+{
+    int flag=0;
+    for (int i=2; i<= operand1 / 2; ++i )
+    {
+        if (operand1 % i ==0){
+            flag=1;
+            break;
+        }
+    }
+    if(operand1 == 1)
+    {
+        return 2;
+    }
+    else
+    {
+        if (flag==0)
+            return 1;
+        else
+            return 0;
+    }
+}
+
 int factorial(int operand1)
 {
     int fact=1;
@@ -63,41 +89,45 @@ int factorial(int operand1)
 
 
 
-int andoperator(int operand1, int operand2 )
+int ANDoperator(int operand1, int operand2 )
 {  
     return operand1&operand2;
 }
 
-int oroperator(int operand1, int operand2)
+int ORoperator(int operand1, int operand2)
 {
     return operand1|operand2;
 }
 
-int notoperator(int operand1)
+int NOToperator(int operand1)
 {
     return ~operand1;
 }
 
-int nandoperator(int operand1, int operand2)
+int NANDoperator(int operand1, int operand2)
 {
      return ~(operand1&operand2);
 }
 
-int noroperator(int operand1, int operand2)
+int NORoperator(int operand1, int operand2)
 {
     return ~(operand1|operand2);
 }
 
-int xoroperator(int operand1, int operand2)
+int XORoperator(int operand1, int operand2)
 {
     return operand1^operand2;
 }
 
-int xnoroperator(int operand1, int operand2)
+int XNORoperator(int operand1, int operand2)
 {
     return ~(operand1^operand2);
 }
 
+int square(float operand1)
+{
+    return operand1*operand1;
+}
 
 /* trigonometric functions*/
 float sine(float value)

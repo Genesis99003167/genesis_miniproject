@@ -13,6 +13,21 @@ int division(int , int );
 
 int modulorem(int , int );
 int power( int , int );
+int modulorem(int operand1, int operand2)
+int power( int base, int exponent)
+int evenodd(int operand1)
+int prime(int operand1)
+int factorial(int operand1)
+
+int ANDoperator(int operand1, int operand2 )
+int ORoperator(int operand1, int operand2)
+int NOToperator(int operand1)
+int NANDoperator(int operand1, int operand2)
+int NORoperator(int operand1, int operand2)
+int XORoperator(int operand1, int operand2)
+int XNORoperator(int operand1, int operand2)
+int square(float operand1)
+
 
 float sine(float);
 float cosine(float);
