@@ -52,3 +52,15 @@ void test_addition(void) {
   CU_ASSERT(-2 == addition(5,-7));
 
 }
+
+void test_subtraction(void) {
+  CU_ASSERT(9 == subtraction(5,4));
+}
+
+void test_multiplication(void) {
+  CU_ASSERT(9 == multiplication(5,4));
+}
+
+void test_division(void) {
+  CU_ASSERT(9 == division(5,4));
+}
