@@ -19,7 +19,6 @@ int NORoperator(int,int);
 int XORoperator(int,int);
 int XNORoperator(int,int);
 int square(float);
-int squareroot(float);
 
 int addition(int , int );
 int subtraction(int , int );
