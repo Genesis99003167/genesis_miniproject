@@ -52,11 +52,8 @@ int main() {
 /* Write all the test functions */
 
 
-<<<<<<< HEAD
 void test_addition(void) {
   CU_ASSERT(9 == addition(5,4));
-=======
->>>>>>> 732f2b7586668546ef65440b140fbcb6b30b77a8
 
 }
 /*
