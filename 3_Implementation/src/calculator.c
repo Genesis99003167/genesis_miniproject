@@ -1,6 +1,6 @@
 
 #include "calculator.h"
-#define PI 3.14;
+#define PI 3.14
 int x;
 
 int addition(int operand1, int operand2)
