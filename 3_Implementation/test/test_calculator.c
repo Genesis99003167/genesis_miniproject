@@ -28,12 +28,14 @@ int main() {
 
 
   /* Add your test functions in this format for testing*/
-  //CU_add_test(suite, "login", test_login);
+  
   CU_add_test(suite, "addition", test_addition);
   CU_add_test(suite, "subtraction", test_subtraction);
   CU_add_test(suite, "multiplication", test_multiplication);
   CU_add_test(suite, "division", test_division);
   CU_add_test(suite, "ANDoperator", test_ANDoperator);
+
+  
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
   CU_basic_set_mode(CU_BRM_VERBOSE);
