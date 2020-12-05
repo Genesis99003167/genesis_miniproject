@@ -19,6 +19,7 @@ int division(int a, int b)
 {
     return a/b;
 }
+<<<<<<< HEAD
 int modulorem(int operand1, int operand2)
 {
     if (0== operand2)
@@ -40,3 +41,39 @@ int power( int base, int exponent)
 }
 
 
+=======
+
+int andoperator(int operand1, int operand2 )
+{  
+}
+
+int oroperator(int operand1, int operand2)
+{
+
+}
+
+int notoperator(int operand1, int operand2)
+{
+
+}
+
+int nandoperator(int operand1, int operand2)
+{
+
+}
+
+int noroperator(int operand1, int operand2)
+{
+
+}
+
+int xoroperator(int operand1, int operand2)
+{
+
+}
+
+int xnoroperator(int operand1, int operand2)
+{
+
+}
+>>>>>>> bafacdd6119870df59635b860bd347a4aaf3ed93
