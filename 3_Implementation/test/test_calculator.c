@@ -49,17 +49,6 @@ int main() {
 
 void test_addition(void) {
   CU_ASSERT(9 == addition(5,4));
-<<<<<<< HEAD
-
-}
-/*
-
-void test_temperature(void) {
-  CU_ASSERT(1 == temp_check());
-  CU_ASSERT(1 == temp_check());
-}
-=======
   CU_ASSERT(-2 == addition(5,-7));
->>>>>>> 5247f4dbc181c1e6a1d6c564d2117383ffcd5bac
 
 }

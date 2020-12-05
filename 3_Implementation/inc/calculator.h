@@ -13,6 +13,9 @@ int division(int a, int b);
 
 int modulorem(int operand1, int operand2)
 int power( int base, int exponent)
+int evenodd(int operand1)
+int prime(int operand1)
+int factorial(int operand1)
 
 int ANDoperator(int operand1, int operand2 )
 int ORoperator(int operand1, int operand2)

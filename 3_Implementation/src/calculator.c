@@ -18,6 +18,7 @@ int division(int operand1, int operand2)
 {
     return operand1/operand2;
 }
+
 int modulorem(int operand1, int operand2)
 {
     if (0== operand2)
@@ -28,6 +29,7 @@ int modulorem(int operand1, int operand2)
     }
     
 }
+
 int power( int base, int exponent)
 {
     int result=1;
@@ -48,6 +50,30 @@ int evenodd(int operand1)
     }
     
 }
+
+int prime(int operand1)
+{
+    int flag=0;
+    for (int i=2; i<= operand1 / 2; ++i )
+    {
+        if (operand1 % i ==0){
+            flag=1;
+            break;
+        }
+    }
+    if(operand1 == 1)
+    {
+        return 2;
+    }
+    else
+    {
+        if (flag==0)
+            return 1;
+        else
+            return 0;
+    }
+}
+
 int factorial(int operand1)
 {
     int fact=1;
@@ -62,8 +88,12 @@ int factorial(int operand1)
 }
 
 
+<<<<<<< HEAD
 
 int ANDoperator(int operand1, int operand2 )
+=======
+int andoperator(int operand1, int operand2 )
+>>>>>>> d9ae42919ec4661fcaa3984c3637512bbd935b19
 {  
     return operand1&operand2;
 }
