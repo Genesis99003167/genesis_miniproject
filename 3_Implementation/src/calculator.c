@@ -88,12 +88,8 @@ int factorial(int operand1)
 }
 
 
-<<<<<<< HEAD
 
 int ANDoperator(int operand1, int operand2 )
-=======
-int andoperator(int operand1, int operand2 )
->>>>>>> d9ae42919ec4661fcaa3984c3637512bbd935b19
 {  
     return operand1&operand2;
 }
