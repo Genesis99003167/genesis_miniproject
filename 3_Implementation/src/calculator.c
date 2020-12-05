@@ -29,3 +29,14 @@ int modulorem(int operand1, int operand2)
     }
     
 }
+int power( int base, int exponent)
+{
+    int result=1;
+    for(exponent; exponent>0;exponent--)
+    {
+        result=result*base;
+    }
+    return result;
+}
+
+

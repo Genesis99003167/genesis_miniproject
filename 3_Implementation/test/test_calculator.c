@@ -8,9 +8,9 @@
 /* Prototypes for all the test functions */
 
 //void test_login(void);
-void test_phone(void);
-void test_temperature(void);
-void test_sanitize_check(void);
+void test_addition(void);
+/* void test_temperature(void);
+void test_sanitize_check(void); */
 
 /* Start of the application test */
 int main() {
@@ -47,15 +47,11 @@ int main() {
 /* Write all the test functions */
 
 
-struct Customer c={.phone="1234567890"};
-struct Customer d={.phone="123456"};
-struct Customer e={.phone="0123456789"};
+void test_addition(void) {
+  CU_ASSERT(9 == addition(5,4));
 
-void test_phone(void) {
-  CU_ASSERT(1 == phone_check(c));
-  CU_ASSERT(0 == phone_check(d));
-  CU_ASSERT(0 == phone_check(e));
 }
+/*
 
 void test_temperature(void) {
   CU_ASSERT(1 == temp_check());
@@ -66,3 +62,4 @@ void test_sanitize_check(void) {
   CU_ASSERT(1 == sanitize());
   CU_ASSERT(1 == sanitize());
 }
+*/
