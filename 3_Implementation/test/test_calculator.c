@@ -7,12 +7,15 @@
 
 /* Prototypes for all the test functions */
 
-//void test_login(void);
 void test_addition(void);
 void test_subtraction(void);
 void test_multiplication(void);
 void test_division(void);
 void test_ANDoperator(void);
+
+
+
+
 /* Start of the application test */
 int main() {
   
@@ -27,7 +30,7 @@ int main() {
   /* Add your test functions in this format for testing*/
   //CU_add_test(suite, "login", test_login);
   CU_add_test(suite, "addition", test_addition);
-  CU_add_test(suite, "subtraction", test_subtraction;
+  CU_add_test(suite, "subtraction", test_subtraction);
   CU_add_test(suite, "multiplication", test_multiplication);
   CU_add_test(suite, "division", test_division);
   CU_add_test(suite, "ANDoperator", test_ANDoperator);
@@ -55,15 +58,16 @@ void test_addition(void) {
 }
 
 void test_subtraction(void) {
-  CU_ASSERT(9 == subtraction(5,4));
+  CU_ASSERT(1 == subtraction(5,4));
+  CU_ASSERT(-9 == subtraction(-5,4));
 }
 
 void test_multiplication(void) {
-  CU_ASSERT(9 == multiplication(5,4));
+  CU_ASSERT(20 == multiplication(5,4));
 }
 
 void test_division(void) {
-  CU_ASSERT(9 == division(5,4));
+  CU_ASSERT(1 == division(5,4));
 }
 
 void test_ANDoperator(void) {
