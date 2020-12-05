@@ -129,7 +129,24 @@ int square(float operand1)
     return operand1*operand1;
 }
 
-int 
+int squareroot(float operand1)
+{
+    if(operand1<0)
+        return 0;
+    else 
+        return sqrt(operand1);
+} 
+
+int cube(float operand1)
+{
+    return operand1*operand1*operand1;
+}
+
+int cuberoot(float operand1)
+{
+    
+}
+
 /* trigonometric functions*/
 float sine(float value)
 {
