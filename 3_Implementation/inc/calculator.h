@@ -10,6 +10,7 @@ int addition(int , int );
 int subtraction(int , int );
 int multiplication(int , int );
 int division(int , int );
+
 int modulorem(int, int);
 int power( int, int);
 int evenodd(int);
@@ -23,7 +24,12 @@ int NANDoperator(int,int);
 int NORoperator(int,int);
 int XORoperator(int,int);
 int XNORoperator(int,int);
-int square(float);
+
+int square(int);
+int cube(int );
+int LOGfunction(int);
+int Expo(int );
+float square_root(float);
 
 float sine(float);
 float cosine(float);
@@ -32,7 +38,7 @@ float sineh(float);
 float cosineh(float);
 float tangenth(float);
 float logten(float);
-float squareroot(float);
+
 
 
 
