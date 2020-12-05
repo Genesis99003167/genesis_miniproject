@@ -6,27 +6,6 @@
 #include <stdlib.h> 
 
 
-<<<<<<< HEAD
-int addition(int a, float b);
-int subtraction(int a, int b);
-int multiplication(int a, int b);
-int division(int a, int b);
-
-int modulorem(int operand1, int operand2)
-int power( int base, int exponent)
-int evenodd(int operand1)
-int prime(int operand1)
-int factorial(int operand1)
-
-int ANDoperator(int,int);
-int ORoperator(int,int);
-int NOToperator(int);
-int NANDoperator(int,int);
-int NORoperator(int,int);
-int XORoperator(int,int);
-int XNORoperator(int,int);
-int square(float);
-=======
 int addition(int , int );
 int subtraction(int , int );
 int multiplication(int , int );
@@ -47,8 +26,7 @@ int NANDoperator(int operand1, int operand2);l
 int NORoperator(int operand1, int operand2);
 int XORoperator(int operand1, int operand2);
 int XNORoperator(int operand1, int operand2)
-int square(float operand1)
->>>>>>> b330b960f32c34537d50cb6012463a4118a823a1
+int square(float operand1);
 
 
 float sine(float);
