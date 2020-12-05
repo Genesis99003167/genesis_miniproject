@@ -5,6 +5,11 @@
 #include <math.h>  
 #include <stdlib.h> 
 
+
+int addition(int , int );
+int subtraction(int , int );
+int multiplication(int , int );
+int division(int , int );
 int modulorem(int, int);
 int power( int, int);
 int evenodd(int);
@@ -19,12 +24,6 @@ int NORoperator(int,int);
 int XORoperator(int,int);
 int XNORoperator(int,int);
 int square(float);
-
-int addition(int , int );
-int subtraction(int , int );
-int multiplication(int , int );
-int division(int , int );
-
 
 float sine(float);
 float cosine(float);
