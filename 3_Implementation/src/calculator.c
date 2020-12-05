@@ -39,6 +39,29 @@ int power( int base, int exponent)
     return result;
 }
 
+int evenodd(int operand1)
+{
+    if (operand1 % 2==0)
+        return 1;
+    else
+    {
+        return 0;
+    }
+    
+}
+int factorial(int operand1)
+{
+    int fact=1;
+    if ( operand1<0)
+        return 0;
+    else{
+        for(int i=1;i<=operand1;++i){
+            fact*=i;
+        }
+        return fact;
+    }
+}
+
 
 
 int andoperator(int operand1, int operand2 )
