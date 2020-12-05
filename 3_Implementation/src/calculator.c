@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <math.h>  
-#include <stdlib.h> 
 
 int addition(int operand1, int operand2)
 {
