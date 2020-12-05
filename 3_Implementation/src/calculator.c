@@ -168,7 +168,7 @@ float sine(float value)
 }
 float cosine(float value)
 {
-    return (cos (x*PI/180));
+    return (cos (value*PI/180));
 }
 float tangent(float value)
 {
@@ -180,11 +180,11 @@ float sineh(float value)
 }
 float cosineh(float value)
 {
-    return (sinh(value));
+    return (cosh(value));
 }
 float tangenth(float value)
 {
-    return (sinh(value));
+    return (tanh(value));
 }
 float logten(float value)
 {
