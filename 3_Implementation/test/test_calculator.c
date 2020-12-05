@@ -8,9 +8,9 @@
 /* Prototypes for all the test functions */
 
 //void test_login(void);
-void test_phone(void);
-void test_temperature(void);
-void test_sanitize_check(void);
+void test_addition(void);
+void test_subtraction(void);
+void test_multilication(void);
 
 /* Start of the application test */
 int main() {
@@ -47,9 +47,6 @@ int main() {
 /* Write all the test functions */
 
 
-struct Customer c={.phone="1234567890"};
-struct Customer d={.phone="123456"};
-struct Customer e={.phone="0123456789"};
 
 void test_phone(void) {
   CU_ASSERT(1 == phone_check(c));
