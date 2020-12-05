@@ -6,8 +6,7 @@
 #include <stdlib.h> 
 
 
-<<<<<<< HEAD
-int addition(int a, float b);
+int addition(int a, int b);
 int subtraction(int a, int b);
 int multiplication(int a, int b);
 int division(int a, int b);
@@ -18,35 +17,23 @@ int evenodd(int operand1)
 int prime(int operand1)
 int factorial(int operand1)
 
-int ANDoperator(int,int);
-int ORoperator(int,int);
-int NOToperator(int);
-int NANDoperator(int,int);
-int NORoperator(int,int);
-int XORoperator(int,int);
-int XNORoperator(int,int);
-int square(float);
-int squareroot(float);
-
-=======
-int addition(int , int );
-int subtraction(int , int );
-int multiplication(int , int );
-int division(int , int );
->>>>>>> e02c5abe27b239e1024524b220e2d04be8553b61
+int ANDoperator(int operand1,int operand2);
+int ORoperator(int operand1,int operand2);
+int NOToperator(int operand1);
+int NANDoperator(int operand1,int operand2);
+int NORoperator(int operand1,int operand2);
+int XORoperator(int operand1,int operand2);
+int XNORoperator(int operand1,int operand2);
+int square(float operand1);
+int squareroot(float operand1);
+int cube(float operand1);
+int LOGfunction(float operand1);
+int Expo(float operand1);
 
 
-<<<<<<< HEAD
-=======
-int ANDoperator(int, int  );
-int ORoperator(int , int );
-int NOToperator(int );
-int NANDoperator(int , int );
-int NORoperator(int , int );
-int XORoperator(int , int );
-int XNORoperator(int , int );
-int square(float );
->>>>>>> e02c5abe27b239e1024524b220e2d04be8553b61
+
+
+
 
 
 float sine(float);

@@ -131,7 +131,7 @@ int square(float operand1)
 
 int squareroot(float operand1)
 {
-    if(operand1<0)
+    if(operand1<=0)
         return 0;
     else 
         return sqrt(operand1);
@@ -142,10 +142,22 @@ int cube(float operand1)
     return operand1*operand1*operand1;
 }
 
-int cuberoot(float operand1)
+int LOGfunction(float operand1)
 {
-    
+    if(operand1<=0)
+        return operand1;
+    else
+        return log(operand1);
 }
+
+int Expo(float operand1)
+{
+    if(operand1==0)
+        return 1;
+    else 
+        return expo(operand1);
+} 
+
 
 /* trigonometric functions*/
 float sine(float value)
