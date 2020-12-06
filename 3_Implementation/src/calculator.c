@@ -18,7 +18,10 @@ int multiplication(int operand1, int operand2)
 }
 int division(int operand1, int operand2)
 {
-    return operand1/operand2;
+    if(operand2 == 0)
+        return -1;
+    else
+        return operand1/operand2;
 }
 
 int modulorem(int operand1, int operand2)
