@@ -113,7 +113,7 @@ int NANDoperator(int operand1, int operand2)
 
 int NORoperator(int operand1, int operand2)
 {
-    return ~(operand1|operand2);
+    return !(operand1|operand2);
 }
 
 int XORoperator(int operand1, int operand2)
