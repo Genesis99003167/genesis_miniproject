@@ -14,6 +14,7 @@ int main()
     printf("6.Modulus\n");
     printf("7.Factorial\n");
     printf("8.Exponent\n");
+    printf("9.Prime\n");
     printf("\nEnter you choice: ");
     scanf("%d",&option);
     switch(option)
@@ -74,7 +75,13 @@ int main()
             out = Expo(in1);
             printf("%d",out);
             break;
-            
+
+        case 9:
+            printf("\nEnter a number for factorial");
+            scanf("%d",&in1);
+            out = prime(in1);
+            printf("%d",out);
+            break;
     }
     return 0;
 }
