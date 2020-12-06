@@ -141,7 +141,7 @@ void test_XORoperator(void) {
   
 }
 void test_XNORoperator(void) {
-  CU_ASSERT(2 == XNORoperator(5,7));
+  CU_ASSERT(-3 == XNORoperator(5,7));
   
 }
 
