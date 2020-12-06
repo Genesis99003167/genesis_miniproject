@@ -59,10 +59,10 @@ int main() {
   CU_add_test(suite, "Cube", test_cube);
   CU_add_test(suite, "Power", test_power);
   CU_add_test(suite, "Modulus", test_modulorem);
-  CU_add_test(suite, "KMtoMconv", test_modulorem);
-  CU_add_test(suite, "METERtoKM", test_modulorem);
-  CU_add_test(suite, "KMPHtoMPH", test_modulorem);
-  CU_add_test(suite, "MPHtoKMPH", test_modulorem);
+  CU_add_test(suite, "KMtoMconv", test_KMtoMconv);
+  CU_add_test(suite, "METERtoKM", test_METERtoKM);
+  CU_add_test(suite, "KMPHtoMPH", test_KMPHtoMPH);
+  CU_add_test(suite, "MPHtoKMPH", test_MPHtoKMPH);
 
 
 /* Note: Do not edit START*/
