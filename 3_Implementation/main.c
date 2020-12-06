@@ -1,7 +1,7 @@
 #include "calculator.h"
 
 
-void main()
+int main()
 {
   int option,in1,in2,out;
     double triginput,trigoutput;
@@ -76,4 +76,5 @@ void main()
             break;
             
     }
+    return 0;
 }
