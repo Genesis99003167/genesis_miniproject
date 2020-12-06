@@ -24,6 +24,10 @@ void test_square(void);
 void test_cube(void);
 void test_power(void);
 void test_modulorem(void);
+void test_KMtoMconv(void);
+void test_METERtoKM(void);
+void test_KMPHtoMPH(void);
+void test_MPHtoKMPH(void);
 
 /* Start of the application test */
 int main() {
@@ -55,6 +59,10 @@ int main() {
   CU_add_test(suite, "Cube", test_cube);
   CU_add_test(suite, "Power", test_power);
   CU_add_test(suite, "Modulus", test_modulorem);
+  CU_add_test(suite, "KMtoMconv", test_modulorem);
+  CU_add_test(suite, "METERtoKM", test_modulorem);
+  CU_add_test(suite, "KMPHtoMPH", test_modulorem);
+  CU_add_test(suite, "MPHtoKMPH", test_modulorem);
 
 
 /* Note: Do not edit START*/
@@ -156,3 +164,27 @@ void test_modulorem(void) {
   CU_ASSERT(1 == modulorem(10,3));
   
 }
+
+void test_KMtoMconv(void) {
+  CU_ASSERT(15000 == KMtoMconv(15));
+  CU_ASSERT(0 == KMtoMconv(0));  
+}
+
+
+void test_METERtoKM(void) {
+  CU_ASSERT(15 == METERtoKM(15000));
+  CU_ASSERT(0 == METERtoKM(0));  
+}
+
+void test_KMPHtoMPH(void) {
+  CU_ASSERT(7.456454 == KMPHtoMPH(12));
+  CU_ASSERT(0 == KMPHtoMPH(0));  
+}
+
+
+void test_MPHtoKMPH(void) {
+  CU_ASSERT(27.358780 == MPHtoKMPH(17));
+  CU_ASSERT(0 == MPHtoKMPH(0));  
+}
+
+
