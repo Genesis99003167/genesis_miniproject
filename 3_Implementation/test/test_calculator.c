@@ -86,6 +86,6 @@ void test_ORoperator(void) {
   
 }
 void test_COMPLoperator(void) {
-  CU_ASSERT(3 == COMPLoperator(60));
+  CU_ASSERT(-36 == COMPLoperator(35));
   
 }
