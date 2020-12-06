@@ -11,6 +11,7 @@ void test_addition(void);
 void test_subtraction(void);
 void test_multiplication(void);
 void test_division(void);
+void test_factorial(void);
 void test_ANDoperator(void);
 void test_ORoperator(void);
 void test_NOToperator(void);
@@ -18,6 +19,7 @@ void test_NANDoperator(void);
 void test_NORoperator(void);
 void test_XORoperator(void);
 void test_XNORoperator(void);
+void test_square(void);
 void test_cube(void);
 
 /* Start of the application test */
@@ -37,6 +39,7 @@ int main() {
   CU_add_test(suite, "subtraction", test_subtraction);
   CU_add_test(suite, "multiplication", test_multiplication);
   CU_add_test(suite, "division", test_division);
+  CU_add_test(suite, "factorial", test_factorial);
   CU_add_test(suite, "ANDoperator", test_ANDoperator);
   CU_add_test(suite, "ORoperator", test_ORoperator);
   CU_add_test(suite, "NOToperator", test_NOToperator);
@@ -44,6 +47,7 @@ int main() {
   CU_add_test(suite, "NORoperator", test_NORoperator);
   CU_add_test(suite, "XORoperator", test_XORoperator);
   CU_add_test(suite, "XNORoperator", test_XNORoperator);
+  CU_add_test(suite, "Square", test_square);
   CU_add_test(suite, "cube", test_cube);
 
 /* Note: Do not edit START*/
@@ -85,6 +89,11 @@ void test_division(void) {
   CU_ASSERT_EQUAL(3, division(1500,500));
 }
 
+void test_factorial(void) {
+  CU_ASSERT(120 == factorial(5));
+  
+}
+
 void test_ANDoperator(void) {
   CU_ASSERT(10 == ANDoperator(10,15));
   
@@ -112,6 +121,11 @@ void test_XORoperator(void) {
 }
 void test_XNORoperator(void) {
   CU_ASSERT(5 == XNORoperator(5,7));
+  
+}
+
+void test_square(void) {
+  CU_ASSERT(4 == square(2));
   
 }
 
