@@ -23,6 +23,7 @@ void test_XNORoperator(void);
 void test_square(void);
 void test_cube(void);
 void test_power(void);
+void test_modulorem(void);
 
 /* Start of the application test */
 int main() {
@@ -53,6 +54,8 @@ int main() {
   CU_add_test(suite, "Square", test_square);
   CU_add_test(suite, "Cube", test_cube);
   CU_add_test(suite, "Power", test_power);
+  CU_add_test(suite, "Modulus", test_modulorem);
+
 
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
@@ -146,5 +149,10 @@ void test_cube(void) {
 
 void test_power(void) {
   CU_ASSERT(1024 == power(2,10));
+  
+}
+
+void test_modulorem(void) {
+  CU_ASSERT(1 == modulorem(10,3));
   
 }
