@@ -1,7 +1,7 @@
 # Name of the project
 PROJECT_NAME = Calculator
 
-# Output directory
+# Output directory 
 BUILD = build
 
 # All source code files
