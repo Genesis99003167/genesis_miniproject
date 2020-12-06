@@ -30,6 +30,11 @@ int cube(int );
 float LOGfunction(int);
 float Expo(int );
 float square_root(float);
+float KMtoMconv(float operand1);
+float METERtoKM(float operand1);
+float KMPHtoMPH(double operand1);
+float MPHtoKMPH(double operand1);
+
 
 float sine(float);
 float cosine(float);

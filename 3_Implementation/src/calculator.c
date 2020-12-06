@@ -160,6 +160,38 @@ float Expo(int operand1)
     else 
         return exp(operand1);
 } 
+/*Kilometer to meter conversion*/
+float KMtoMconv(float operand1)
+{   if(operand1<=0)
+        return 0;
+    else 
+        return operand1*1000; 
+}
+
+/*Meter to kilometer conversion*/
+float METERtoKM(float operand1)
+{    if(operand1<=0)
+        return 0;
+    else 
+        return operand1/1000;
+}
+
+/*KMPH to MPH conversion */
+float KMPHtoMPH(double operand1)
+{    if(operand1<=0)
+        return 0;
+    else 
+        return operand1*0.6213712; 
+}
+
+/*MPH to KMPH conversion */
+float MPHtoKMPH(double operand1)
+{    if(operand1<=0)
+        return 0;
+    else 
+        return operand1*1.60934;
+} 
+
 
 
 /* trigonometric functions*/
