@@ -157,6 +157,7 @@ void test_cube(void) {
 
 void test_power(void) {
   CU_ASSERT(1024 == power(2,10));
+  CU_ASSERT(1 == power(2,0));
   
 }
 
