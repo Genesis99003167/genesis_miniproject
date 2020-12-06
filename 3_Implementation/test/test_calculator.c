@@ -18,6 +18,7 @@ void test_NANDoperator(void);
 void test_NORoperator(void);
 void test_XORoperator(void);
 void test_XNORoperator(void);
+void test_cube(void);
 
 /* Start of the application test */
 int main() {
@@ -43,6 +44,7 @@ int main() {
   CU_add_test(suite, "NORoperator", test_NORoperator);
   CU_add_test(suite, "XORoperator", test_XORoperator);
   CU_add_test(suite, "XNORoperator", test_XNORoperator);
+  CU_add_test(suite, "cube", test_cube);
 
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
@@ -110,5 +112,10 @@ void test_XORoperator(void) {
 }
 void test_XNORoperator(void) {
   CU_ASSERT(5 == XNORoperator(5,7));
+  
+}
+
+void test_cube(void) {
+  CU_ASSERT(8 == cube(2));
   
 }
