@@ -22,6 +22,7 @@ void test_XORoperator(void);
 void test_XNORoperator(void);
 void test_square(void);
 void test_cube(void);
+void test_power(void);
 
 /* Start of the application test */
 int main() {
@@ -50,7 +51,8 @@ int main() {
   CU_add_test(suite, "XORoperator", test_XORoperator);
   CU_add_test(suite, "XNORoperator", test_XNORoperator);
   CU_add_test(suite, "Square", test_square);
-  CU_add_test(suite, "cube", test_cube);
+  CU_add_test(suite, "Cube", test_cube);
+  CU_add_test(suite, "Power", test_power);
 
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
@@ -139,5 +141,10 @@ void test_square(void) {
 
 void test_cube(void) {
   CU_ASSERT(8 == cube(2));
+  
+}
+
+void test_power(void) {
+  CU_ASSERT(1024 == power(2,10));
   
 }
