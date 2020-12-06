@@ -12,7 +12,7 @@ void test_subtraction(void);
 void test_multiplication(void);
 void test_division(void);
 void test_ANDoperator(void);
-
+void test_ORoperator(void);
 
 
 
@@ -34,7 +34,7 @@ int main() {
   CU_add_test(suite, "multiplication", test_multiplication);
   CU_add_test(suite, "division", test_division);
   CU_add_test(suite, "ANDoperator", test_ANDoperator);
-
+  CU_add_test(suite, "ORoperator", test_ORoperator);
 
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
@@ -77,5 +77,9 @@ void test_division(void) {
 
 void test_ANDoperator(void) {
   CU_ASSERT(10 == ANDoperator(10,15));
+  
+}
+void test_ORoperator(void) {
+  CU_ASSERT(29 == ORoperator(12,25));
   
 }
