@@ -38,11 +38,11 @@ int main() {
   CU_add_test(suite, "division", test_division);
   CU_add_test(suite, "ANDoperator", test_ANDoperator);
   CU_add_test(suite, "ORoperator", test_ORoperator);
-  CU_add_test(suite, "COMPLoperator", test_NOTLoperator);
-  CU_add_test(suite, "COMPLoperator", test_NANDoperator);
-  CU_add_test(suite, "COMPLoperator", test_NORoperator);
-  CU_add_test(suite, "COMPLoperator", test_XORoperator);
-  CU_add_test(suite, "COMPLoperator", test_XNORoperator);
+  CU_add_test(suite, "NOToperator", test_NOToperator);
+  CU_add_test(suite, "NANDoperator", test_NANDoperator);
+  CU_add_test(suite, "NORoperator", test_NORoperator);
+  CU_add_test(suite, "XORoperator", test_XORoperator);
+  CU_add_test(suite, "XNORoperator", test_XNORoperator);
 
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
