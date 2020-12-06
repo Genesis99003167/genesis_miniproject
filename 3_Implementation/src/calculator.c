@@ -123,7 +123,7 @@ int XORoperator(int operand1, int operand2)
 
 int XNORoperator(int operand1, int operand2)
 {
-    return !(operand1^operand2);
+    return ~(operand1^operand2);
 }
 
 int square(int operand1)
