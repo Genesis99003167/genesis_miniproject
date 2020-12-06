@@ -19,7 +19,7 @@ int factorial(int);
 
 int ANDoperator(int,int);
 int ORoperator(int,int);
-int COMPLoperator(int);
+int NOToperator(int);
 int NANDoperator(int,int);
 int NORoperator(int,int);
 int XORoperator(int,int);
