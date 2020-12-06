@@ -101,7 +101,7 @@ int ORoperator(int operand1, int operand2)
     return operand1|operand2;
 }
 
-int COMPLoperator(int operand1)
+int NOToperator(int operand1)
 {
     return ~operand1;
 }
@@ -145,7 +145,7 @@ int cube(int operand1)
     return operand1*operand1*operand1;
 }
 
-int LOGfunction(int operand1)
+float LOGfunction(int operand1)
 {
     if(operand1<=0)
         return operand1;
@@ -153,7 +153,7 @@ int LOGfunction(int operand1)
         return log(operand1);
 }
 
-int Expo(int operand1)
+float Expo(int operand1)
 {
     if(operand1==0)
         return 1;

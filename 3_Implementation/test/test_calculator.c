@@ -13,8 +13,11 @@ void test_multiplication(void);
 void test_division(void);
 void test_ANDoperator(void);
 void test_ORoperator(void);
-void test_COMPLoperator(void);
-
+void test_NOToperator(void);
+void test_NANDoperator(void);
+void test_NORoperator(void);
+void test_XORoperator(void);
+void test_XNORoperator(void);
 
 /* Start of the application test */
 int main() {
@@ -35,7 +38,11 @@ int main() {
   CU_add_test(suite, "division", test_division);
   CU_add_test(suite, "ANDoperator", test_ANDoperator);
   CU_add_test(suite, "ORoperator", test_ORoperator);
-  CU_add_test(suite, "COMPLoperator", test_COMPLoperator);
+  CU_add_test(suite, "COMPLoperator", test_NOTLoperator);
+  CU_add_test(suite, "COMPLoperator", test_NANDoperator);
+  CU_add_test(suite, "COMPLoperator", test_NORoperator);
+  CU_add_test(suite, "COMPLoperator", test_XORoperator);
+  CU_add_test(suite, "COMPLoperator", test_XNORoperator);
 
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
@@ -85,7 +92,23 @@ void test_ORoperator(void) {
   CU_ASSERT(29 == ORoperator(12,25));
   
 }
-void test_COMPLoperator(void) {
-  CU_ASSERT(-36 == COMPLoperator(35));
+void test_NOToperator(void) {
+  CU_ASSERT(-36 == NOToperator(35));
+  
+}
+void test_NANDoperator(void) {
+  CU_ASSERT(0 == NANDoperator(3,4));
+  
+}
+void test_NORoperator(void) {
+  CU_ASSERT(7 == NORoperator(3,4));
+  
+}
+void test_XORoperator(void) {
+  CU_ASSERT(120 == XORoperator(40,80));
+  
+}
+void test_XNORoperator(void) {
+  CU_ASSERT(13 == XNORoperator(5,7));
   
 }

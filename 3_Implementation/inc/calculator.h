@@ -27,8 +27,8 @@ int XNORoperator(int,int);
 
 int square(int);
 int cube(int );
-int LOGfunction(int);
-int Expo(int );
+float LOGfunction(int);
+float Expo(int );
 float square_root(float);
 
 float sine(float);
