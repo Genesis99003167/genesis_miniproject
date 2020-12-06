@@ -129,11 +129,11 @@ void test_NOToperator(void) {
   
 }
 void test_NANDoperator(void) {
-  CU_ASSERT(2 == NANDoperator(5,7));
+  CU_ASSERT(-6 == NANDoperator(5,7));
   
 }
 void test_NORoperator(void) {
-  CU_ASSERT(8 == NORoperator(3,4));
+  CU_ASSERT(0 == NORoperator(3,4));
   
 }
 void test_XORoperator(void) {
@@ -141,7 +141,7 @@ void test_XORoperator(void) {
   
 }
 void test_XNORoperator(void) {
-  CU_ASSERT(5 == XNORoperator(5,7));
+  CU_ASSERT(2 == XNORoperator(5,7));
   
 }
 
