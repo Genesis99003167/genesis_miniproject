@@ -99,7 +99,7 @@ void test_NOToperator(void) {
   
 }
 void test_NANDoperator(void) {
-  CU_ASSERT(7 == NANDoperator(12,25));
+  CU_ASSERT(10 == NANDoperator(5,7));
   
 }
 void test_NORoperator(void) {
