@@ -12,6 +12,7 @@ void test_subtraction(void);
 void test_multiplication(void);
 void test_division(void);
 void test_factorial(void);
+void test_prime(void);
 void test_ANDoperator(void);
 void test_ORoperator(void);
 void test_NOToperator(void);
@@ -40,6 +41,7 @@ int main() {
   CU_add_test(suite, "multiplication", test_multiplication);
   CU_add_test(suite, "division", test_division);
   CU_add_test(suite, "factorial", test_factorial);
+  CU_add_test(suite, "prime", test_prime);
   CU_add_test(suite, "ANDoperator", test_ANDoperator);
   CU_add_test(suite, "ORoperator", test_ORoperator);
   CU_add_test(suite, "NOToperator", test_NOToperator);
@@ -91,6 +93,12 @@ void test_division(void) {
 
 void test_factorial(void) {
   CU_ASSERT(120 == factorial(5));
+  CU_ASSERT(0 == factorial(-10));
+  
+}
+void test_prime(void) {
+  CU_ASSERT(1 == prime(2));
+  CU_ASSERT(0 == prime(4));
   
 }
 
