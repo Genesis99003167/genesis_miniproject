@@ -62,12 +62,12 @@ void test_addition(void) {
 void test_subtraction(void) {
   CU_ASSERT(1 == subtraction(5,4));
   CU_ASSERT(-9 == subtraction(-5,4));
-  CU_ASSERT_EQUAL(1000, subtraction(1500,500))
+  CU_ASSERT_EQUAL(1000, subtraction(1500,500));
 }
 
 void test_multiplication(void) {
   CU_ASSERT(20 == multiplication(5,4));
-  CU_ASSERT_EQUAL(5000, multiplication(500,10))
+  CU_ASSERT_EQUAL(5000, multiplication(500,10));
 }
 
 void test_division(void) {
