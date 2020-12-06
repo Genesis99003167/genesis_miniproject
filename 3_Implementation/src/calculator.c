@@ -101,7 +101,7 @@ int ORoperator(int operand1, int operand2)
     return operand1|operand2;
 }
 
-int NOToperator(int operand1)
+int COMPLoperator(int operand1)
 {
     return ~operand1;
 }
@@ -130,6 +130,7 @@ int square(int operand1)
 {
     return operand1*operand1;
 }
+
 
 float square_root(float operand1)
 {
