@@ -70,14 +70,14 @@ int main()
             break;
 
         case 8:
-            printf("\nEnter a number for factorial");
+            printf("\nEnter a number for exponential function");
             scanf("%d",&in1);
             out = Expo(in1);
             printf("%d",out);
             break;
 
         case 9:
-            printf("\nEnter a number for factorial");
+            printf("\nEnter a number to check for prime");
             scanf("%d",&in1);
             out = prime(in1);
             printf("%d",out);
