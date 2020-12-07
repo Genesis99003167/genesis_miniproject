@@ -1,1 +1,43 @@
+TEST PLAN:
+
+
+Table 9 Test Plan Table
+ID	Description	Expected Input	Expected Output	Actual    Output
+
+HL1_L1	Add Function	Enter one/two value greater than 65535	Error	
+HL1_L1	Add Function	Enter two values	Sum of inputs	
+HL1_L2	Subtract Function	Enter one/two value greater than 65535	Error	
+HL1_L2	Subtract Function	Enter two values	Difference between inputs	
+HL1_L3	Multiplication Function	Enter two values	Multiplication of inputs	
+HL1_L4	Division Function	Enter divisor value as 0	Error	
+HL1_L4	Division Function	Enter two non-zero values	Division of inputs	
+HL2_L1	Sin Function	Enter one int/float value	Sin of the given input in float	
+HL2_L2	Cosine Function	Enter one int/float value	Cosine of the given input in float	
+HL2_L3	Tangent Function	Enter one int/float value	Tangent of the given input in float	
+HL2_L4	Cosecant Function	Enter one int/float value	Cosecant of the given input in float	
+HL2_L5	Secant Function	Enter one int/float value	Secant of the given input in float	
+HL2_L6	Cotangent Function	Enter one int/float value	Cotangent of the given input in float	
+HL3_L1	AND Function	Enter two int values	AND of the inputs	
+HL3_L2	OR Function	Enter two int values	OR of the inputs	
+HL3_L3	NOT Function	Enter single input 	Not of the input	
+HL3_L4	NAND Function	Enter two int values	NAND of the inputs	
+HL3_L5	NOR Function	Enter two int values	NOR of the inputs	
+HL3_L6	XOR Function	Enter two int values	XOR of the inputs	
+HL3_L7	XNOR Function	Enter two int values	XNOR of the inputs	
+HL4_L1 	Kilometer to Meter	Enter two int/float values greater than 0	Conversion from KM to Meter	
+HL4_L2	Meter to Kilometer	Enter two int/float values greater than 0	Conversion from Meter to KM.	
+HL4_L3 	KMPH to MPH	Enter two int/float values greater than 0	Conversion from KMPH to MPH	
+HL4_L4	MPH to KMPH	Enter two int/float values greater than 0	Conversion from MPH to KMPH	
+HL5_L1	Modulo Function	Enter two non-zero values	Modulo of the inputs	
+HL5_L1	Modulo Function	Enter divisor value as 0	Error	
+HL5_L2	Power Function	Enter two int values	Power operation for the given inputs	
+HL5_L3	Even Odd Function	Enter one int value	Tells whether input is even or odd	
+HL5_L4	Prime Function	Enter one int value	Tells whether input is prime or not prime number	
+HL5_L5	Factorial Function 	Enter value less than 0	Error	
+HL5_L5	Factorial Function 	Enter value greater than 0	Factorial of the input	
+HL5_L6	Square Function	Enter input	Square of the given input	
+HL5_L7	Exponential Function	Enter valid input	Exponential of the given input	
+HL5_L8	Log Function	Enter input as 0	Error	
+HL5_L8	Log Function 	Enter input less than 0	Error	
+HL5_L8	Log Function 	Enter input greater than 0	Natural log of the given input	
 
