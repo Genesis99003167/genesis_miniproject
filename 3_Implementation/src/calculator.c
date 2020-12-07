@@ -1,5 +1,7 @@
 
 #include "calculator.h"
+#define PI 3.14
+
 
 int addition(int operand1, int operand2)
 {
@@ -16,7 +18,10 @@ int multiplication(int operand1, int operand2)
 }
 int division(int operand1, int operand2)
 {
-    return operand1/operand2;
+    if(operand2 == 0)
+        return -1;
+    else
+        return operand1/operand2;
 }
 
 int modulorem(int operand1, int operand2)
@@ -111,7 +116,7 @@ int NANDoperator(int operand1, int operand2)
 
 int NORoperator(int operand1, int operand2)
 {
-    return ~(operand1|operand2);
+    return !(operand1|operand2);
 }
 
 int XORoperator(int operand1, int operand2)
@@ -124,28 +129,74 @@ int XNORoperator(int operand1, int operand2)
     return ~(operand1^operand2);
 }
 
-int square(float operand1)
+int square(int operand1)
 {
     return operand1*operand1;
 }
 
-int squareroot(float operand1)
+
+float square_root(float operand1)
 {
-    if(operand1<0)
+    if(operand1<=0)
         return 0;
     else 
         return sqrt(operand1);
 } 
 
-int cube(float operand1)
+int cube(int operand1)
 {
     return operand1*operand1*operand1;
 }
 
-int cuberoot(float operand1)
+float LOGfunction(int operand1)
 {
-    
+    if(operand1<=0)
+        return operand1;
+    else
+        return log(operand1);
 }
+
+float Expo(int operand1)
+{
+    if(operand1==0)
+        return 1;
+    else 
+        return exp(operand1);
+} 
+
+/*Kilometer to meter conversion*/
+float KMtoMconv(float operand1)
+{   if(operand1<=0)
+        return 0;
+    else 
+        return operand1*1000; 
+}
+
+/*Meter to kilometer conversion*/
+float METERtoKM(float operand1)
+{    if(operand1<=0)
+        return 0;
+    else 
+        return operand1/1000;
+}
+
+/*KMPH to MPH conversion */
+float KMPHtoMPH(double operand1)
+{    if(operand1<=0)
+        return 0;
+    else 
+        return operand1*0.6213712; 
+}
+
+/*MPH to KMPH conversion */
+float MPHtoKMPH(double operand1)
+{    if(operand1<=0)
+        return 0;
+    else 
+        return operand1*1.60934;
+} 
+
+
 
 /* trigonometric functions*/
 float sine(float value)
@@ -154,7 +205,7 @@ float sine(float value)
 }
 float cosine(float value)
 {
-    return (cos (x*PI/180));
+    return (cos (value*PI/180));
 }
 float tangent(float value)
 {
@@ -166,11 +217,11 @@ float sineh(float value)
 }
 float cosineh(float value)
 {
-    return (sinh(value));
+    return (cosh(value));
 }
 float tangenth(float value)
 {
-    return (sinh(value));
+    return (tanh(value));
 }
 float logten(float value)
 {

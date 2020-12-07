@@ -1,0 +1,76 @@
+3.	OBJECTIVES & REQUIREMENTS:
+3.1 OBJECTIVES:
+The objectives of our project is to:
+•	Be familiar with Visual studio, it’s source control and other Git services ;
+•	Get conceptually clear with C and it’s unit test frameworks.
+•	Implement various mathematical and special operations in C language.
+•	Be able to clone repository, commit changes, push and pull the code within a team.
+3.2 REQUIREMENTS:
+The calculator has the following keys: 0 to 9, ., +, -, *, /, ±, =, C, CE and 1-operand keys: 1/x, x2 , sqrt. There are also trigonometric functions and some special functions like factorial, even-odd, prime numbers detection. In any situation the calculator has to produce a correct result defined by the well-known arithmetic rules. If the calculations is impossible the calculator has to display information helping the user to resolve the erroneous situations.
+3.2.1	FUNCTIONAL REQUIREMENTS:
+All the arithmetic and science operations whose buttons can be seen are practical specifications, as well as memory store, recall and clear. It will also define turning on and off as practical.
+
+3.2.2	NON-FUNCTIONAL REQUIREMENTS:
+It would be a split second to provide the response, any slower non-functional criteria and you would reject the calculator. To be able to deal with big numbers, it should also be scalable. Another significant non-functional requirement is that the key layout should suit a calculator's standard layout, and for usability, the keys should be the correct size and shape.
+
+3.2.3	HIGH LEVEL REQUIREMENTS:
+
+ID	REQUIREMENTS
+HL_01	Trigonometric functions like sine, cos, hyperbolic sine and hyperbolic cos must include in the calculator
+HL_02	Even-odd, prime number, Exponential, logarithm and factorial functions must be included in the calculator
+HL_03	Symbols like +, -, *, / must include to perform simple mathematical operations.
+HL_04	Logical operations like AND, OR, NOT,NAND, NOR, XOR, XNOR included to compare two values.
+HL_05	Mathematical conversions like km to m, m to km, kmph to mph, mph to kmph included to convert units.
+
+3.2.3 LOW LEVEL REQUIREMENTS:
+ID	REQUIREMENTS
+LL_01
+	Include buttons with number 0-9 
+LL_02	
+  Provides ON, Off, Memory options
+
+LL_03	
+  Options to exit and switch off 
+
+
+3.3 AGEING:
+•	The first scientific calculator that included all of the basic ideas above was the programmable Hewlett-Packard HP-9100A released in 1968.
+•	The HP-35, introduced on February 1, 1972, was Hewlett-Packard's first pocket calculator and the world's first handheld scientific calculator .
+•	Handheld scientific calculator on January 15, 1974, in the form of the SR-50. 
+•	First graphics calculator developed in 1990 Tl-81 for math education that adds a new visual dimension to mathematics instruction.
+3.4 COSTING:
+YEAR	MODEL	COST
+1972	Tl-2500   $149.95
+1985	fx-7000G	$75
+1988	Tl-68	    $55
+1992	Tl-85	    $130
+2020	Tl-30XS	  $18.13
+
+3.5 SWOT ANALYSIS:
+STRENGTH
+•	Innovation-driven goods 
+•	Strong technology experience that drives new companies 
+•	Board product range across market segments 
+•	Effective team of advertisers and big sponsorships
+
+	WEAKNESS
+•	Stereotyped Brand Image 
+•	Slow to launch goods as per the rapidly evolving needs of the market
+OPPORTUNITIES
+•	Youth-centered plan for the introduction of new goods 
+•	Advertisement and promotion of brands 
+•	Adapting to emerging technologies and forming new companies 
+•	Expand development in the company of timepieces and educational science calculators	THREATS
+•	Huge rivals 
+•	Economic volatility can have a huge effect on revenue. 
+•	Requirements at a low level
+
+3.6 4W AND 1H:
+•	WHAT- A scientific calculator is a calculator designed to help you quantify problems in science, technology, and mathematics. It has a lot more buttons than your regular calculator, which allows you to do your four simple addition, subtraction, multiplication, and division arithmetic operations.
+•	WHEN- This calculator is use when  various kinds of numbers and problems such as these- Trigonometry problems, scientific numbers that have a multiplication by 10 to certain power, Pi problems, logarithm problems with base 10 and the natural base, probability problems that use the factorial function and many more complicated functions.
+•	WHERE- Earlier, whole classes were dedicated to studying how to calculate such equations, and it would not have been expected for students to really learn what those equations were for and how they would use them in future careers. But anyways, scientific calculator has made it easy to perform a number of functions to influence a career in science, mathematics or engineering.
+
+•	WHY-  The evolution of scientific calculator has made it possible to avoid the problems of solving by hand for long and difficult expressions. It also does the computation in the following order f operations.
+
+•	HOW- The way calculator works has got actually the heart of it. The perfect technical explanation for the same can be is it includes describing and comparing the decimal numbers we use in a different format, called binary, with electrical circuits known as logic gates.
+
