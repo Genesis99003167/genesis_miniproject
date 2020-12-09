@@ -26,6 +26,7 @@ int XORoperator(int,int);
 int XNORoperator(int,int);
 int square(int);
 int squareroot(float);
+int cube(int);
 
 
 

@@ -27,7 +27,7 @@ void test_modulorem(void);
 void test_KMtoMconv(void);
 void test_METERtoKM(void);
 void test_KMPHtoMPH(void);
-void test_MPHtoKMPH(void);
+/*void test_MPHtoKMPH(void);*/
 
 /* Start of the application test */
 int main() {
@@ -62,7 +62,7 @@ int main() {
   CU_add_test(suite, "KMtoMconv", test_KMtoMconv);
   CU_add_test(suite, "METERtoKM", test_METERtoKM);
   CU_add_test(suite, "KMPHtoMPH", test_KMPHtoMPH);
-  CU_add_test(suite, "MPHtoKMPH", test_MPHtoKMPH);
+  /*CU_add_test(suite, "MPHtoKMPH", test_MPHtoKMPH);*/
 
 
 /* Note: Do not edit START*/
