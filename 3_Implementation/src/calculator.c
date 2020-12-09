@@ -189,12 +189,6 @@ float KMPHtoMPH(double operand1)
 }
 
 /*MPH to KMPH conversion */
-float MPHtoKMPH(double operand1)
-{    if(operand1<=0)
-        return 0;
-    else 
-        return operand1*1.60934;
-} 
 
 
 
