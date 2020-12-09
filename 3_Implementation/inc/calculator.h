@@ -42,7 +42,7 @@ float LOGfunction(int);
 float Expo(int);
 float KMtoMconv(float);
 float METERtoKM(float );
-float KMPHtoMPH(double);
+float KMPHtoMPH(float);
 
 
 
