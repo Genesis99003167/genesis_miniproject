@@ -6,7 +6,7 @@
 #include <stdlib.h> 
 
 
-int addition(int a, float b);
+int addition(int a, int b);
 int subtraction(int a, int b);
 int multiplication(int a, int b);
 int division(int a, int b);
@@ -24,7 +24,7 @@ int NANDoperator(int,int);
 int NORoperator(int,int);
 int XORoperator(int,int);
 int XNORoperator(int,int);
-int square(float);
+int square(int);
 int squareroot(float);
 
 
