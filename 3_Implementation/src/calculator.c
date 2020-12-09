@@ -181,7 +181,7 @@ float METERtoKM(float operand1)
 }
 
 /*KMPH to MPH conversion */
-float KMPHtoMPH(float operand1)
+float KMPHtoMPH(int operand1)
 {    if(operand1<=0)
         return 0;
     else 

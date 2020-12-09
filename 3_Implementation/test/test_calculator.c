@@ -178,7 +178,7 @@ void test_METERtoKM(void) {
 }
 
 void test_KMPHtoMPH(void) {
-  CU_ASSERT(7.456454 == KMPHtoMPH(12));
+  CU_ASSERT(7 == KMPHtoMPH(12));
   CU_ASSERT(0 == KMPHtoMPH(0));  
 }
 
